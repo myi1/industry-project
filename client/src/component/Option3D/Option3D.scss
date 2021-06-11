@@ -1,0 +1,42 @@
+@use '../../styles/variables.scss' as *;
+
+.model {
+  //   width: 50%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  position: relative;
+  top: 240px;
+  left: 600px;
+  margin: 0 auto;
+  background-color: white;
+  transform: scale(1.2);
+  display: flex;
+  &__image {
+    padding: 3rem;
+    width: 313px;
+    height: 222px;
+  }
+  &__text {
+    font-weight: bold;
+    width: 200px;
+    margin-top: 6.25rem;
+    margin-bottom: 5rem;
+  }
+  &__button {
+    background-color: $col-primary;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 7rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  &__text-container {
+    margin-right: 2rem;
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+}

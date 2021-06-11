@@ -1,8 +1,11 @@
 @use '../../styles/variables.scss' as *;
 
 .card-component {
-  background-color: $col-secondary;
-  margin: 20rem auto;
+  background-color: #397ded;
+
+  // background-color: $col-secondary;
+  margin: 10rem auto;
+  // margin: 5rem 0 5rem 20rem ;
   padding: 2.5rem;
   border-radius: 15px;
   width: 20rem;
@@ -23,10 +26,10 @@
   }
 
   &__button {
-    background-color: $col-primary;
+    background-color: white;
     padding: 0.5rem 3rem;
     border-radius: 10px;
     text-decoration: none;
-    color: white;
+    color: black;
   }
 }

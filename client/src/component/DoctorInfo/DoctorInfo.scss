@@ -1,66 +1,56 @@
 @use '../../styles/variables.scss' as *;
 
 .doctorInfo {
-    
-    &__details-section {
-        background-color: greenyellow;
-        background-color: grey;
-        width: 40%;
-        margin: 4rem 0 0 1rem;
+  width: 488px;
+  &__details-section {
+    background-color: #c4c4c4;
+    // opacity: 40%;
+    margin: 4rem 0 0 1rem;
+  }
+  &__info-card {
+    display: flex;
+  }
 
-    }
-    &__info-card {
-        display: flex;
-        
-    }
+  &__doctor-img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 1.5rem 2rem 4rem 2rem;
+  }
 
-    &__doctor-img {
-        height: 60px;
-        width: 60px;
-        border-radius: 50%;
-        margin: 1.5rem 2rem 4rem 2rem;
-        
-    }
+  &__details {
+    text-align: left;
+    margin-top: 1rem;
+  }
 
-    &__details {
-        text-align: left;
-        margin-top:  1rem;
-    }
+  &__info {
+    margin: 0 0 0.5rem 0;
+  }
 
-    &__info {
-        margin: 0 0 .5rem 0;
-    }
-     
-    &__btn {
-        background-color: $col-primary;
-        padding: 0.5rem;
-        margin-bottom: 0.5rem;
-        width: 15rem;
-        border-radius: 10px;
-        text-decoration: none;
-        color: white;
-    }
+  &__btn {
+    background-color: $col-primary;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 15rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+  }
 
-    &__weight {
-       font-weight: bold; 
-    }
-    &__previous-container {
-      text-align: left;
-      padding-left: 2.5rem;
+  &__weight {
+    font-weight: bold;
+  }
+  &__previous-container {
+    text-align: left;
+    padding-left: 2.5rem;
+  }
 
-    }
+  &__previous-visits-list {
+    list-style-type: none;
+    padding: 0;
+  }
 
-    &__previous-visits-list {
-        list-style-type: none;
-        padding: 0;
-        
-    }
-
-    &__previous-visits {
-        text-align: left;
-      
-    }
-
-    
-
+  &__previous-visits {
+    text-align: left;
+  }
 }

@@ -1,13 +1,23 @@
 @use '../../styles/variables.scss' as *;
 
 .header {
-  width: 100vw;
+  width: 100%;
+  margin: 1rem 3rem 0 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 10rem;
-  background-color: $col-primary;
-  padding: $margin-mobile;
+  height: 3rem;
+  background-color: rgba(#397DED , .5) ;
+  
+  // margin-top: 1rem;
+  // background-color: $col-primary;
+  // padding: $margin-mobile;
+
+
+
+  &__title {
+    font-size: medium;
+  }
 
   &__logo {
     height: 8rem;
@@ -23,11 +33,13 @@
     align-items: center;
     list-style: none;
     margin: 0 3rem 0 0;
+    
   }
   &__link {
     margin: 0 1.5rem;
     display: inline;
     font-size: 1.25rem;
+    font-size: medium;
   }
   &__avatar {
     display: inline-block;

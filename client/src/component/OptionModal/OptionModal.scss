@@ -1,0 +1,43 @@
+@use '../../styles/variables.scss' as *;
+
+.options {
+  //   width: 50%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  position: relative;
+  top: 240px;
+  left: 600px;
+  margin: 0 auto;
+  background-color: white;
+  transform: scale(1.2);
+
+  &__header {
+    font-size: 0.75rem;
+    width: 50%;
+    margin: 2rem auto;
+  }
+
+  &__select {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 0;
+    // background-color: gray;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    &-a {
+      margin-right: 5rem;
+    }
+  }
+  &__upload {
+    margin: 0 0 5rem;
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+}

@@ -1,13 +1,14 @@
 @use '../../styles/variables.scss' as *;
 
 .footer {
-  position: fixed;
-  bottom: 0;
+  // position: fixed;
+  // bottom: 0;
   display: flex;
   width: 100%;
   background-color: $col-primary;
   justify-content: space-between;
   margin-top: 2rem;
+  background-color: rgba(#397DED , .5) ;
 
   &__links {
     display: flex;
@@ -17,6 +18,8 @@
 
   &__link {
     margin: $margin-mobile;
+    font-size: small;
+    width: 100%;
   }
   &__socials {
     display: flex;

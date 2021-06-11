@@ -1,12 +1,12 @@
 @use '../../styles/variables.scss' as *;
 
 .homepage {
-  margin: $margin-mobile;
+  margin: 3rem 2rem;
   padding: 1.5rem 5rem;
-  background-color: orange;
+  background-color: rgb(255, 254, 251);
   display: flex;
   justify-content: space-between;
-  height: 65vh;
+  // height: 65vh;
   border-radius: 10px;
 
   &__hero-section {
@@ -31,6 +31,8 @@
   &__article-section {
     text-align: left;
   }
+
+ 
   &__info-details {
     display: flex;
     flex-direction: column;
@@ -47,7 +49,7 @@
   }
 
   &__button {
-    background-color: $col-primary;
+    background-color: (#397DED);
     padding: 0.5rem;
     margin-bottom: 0.5rem;
     width: 15rem;
@@ -56,9 +58,10 @@
     color: white;
   }
   &__article-description {
-    background-color: $col-tertiary;
+    background-color: (rgb(221, 240, 247, .5));
     border-radius: 5px;
     padding: 0.25rem;
-    width: 25rem;
+    width: 100%;
+
   }
 }
