@@ -1,0 +1,64 @@
+@use '../../styles/variables.scss' as *;
+
+.homepage {
+  margin: $margin-mobile;
+  padding: 1.5rem 5rem;
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  height: 65vh;
+  border-radius: 10px;
+
+  &__hero-section {
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 6.5rem;
+  }
+  &__header {
+    font-size: 2.25rem;
+    margin: 0 0 2.5rem;
+    text-align: left;
+  }
+  &__text {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 3rem;
+  }
+  &__article-section {
+    text-align: left;
+  }
+  &__info-details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+
+  &__icon-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+  &__face-icon {
+    margin-right: 2rem;
+    border-radius: 50%;
+  }
+
+  &__button {
+    background-color: $col-primary;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 15rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  &__article-description {
+    background-color: $col-tertiary;
+    border-radius: 5px;
+    padding: 0.25rem;
+    width: 25rem;
+  }
+}

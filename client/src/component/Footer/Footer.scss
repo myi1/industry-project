@@ -1,0 +1,26 @@
+@use '../../styles/variables.scss' as *;
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  background-color: $col-primary;
+  justify-content: space-between;
+  margin-top: 2rem;
+
+  &__links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  &__link {
+    margin: $margin-mobile;
+  }
+  &__socials {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}

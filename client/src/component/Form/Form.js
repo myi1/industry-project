@@ -4,16 +4,16 @@ function Form() {
   return (
     <form className='form'>
       <h2 className='form__header'>Header</h2>
-      <input type='text' name='location' className='form__location'>
-        Where does it hurt
-      </input>
-      <Label className='form__label'>
+      <input
+        type='text'
+        name='location'
+        className='form__location'
+        placeholder='Where does it hurt'
+      />
+      <label className='form__label'>
         Description of issue
-        <input
-          type='text'
-          name='description'
-          className='form__description'></input>
-      </Label>
+        <input type='text' name='description' className='form__description' />
+      </label>
 
       <button className='form__cta'>CTA for Avatar</button>
       <div class='form__select-date-container'>

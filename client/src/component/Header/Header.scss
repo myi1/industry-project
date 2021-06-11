@@ -1,0 +1,39 @@
+@use '../../styles/variables.scss' as *;
+
+.header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+  background-color: $col-primary;
+  padding: $margin-mobile;
+
+  &__logo {
+    height: 8rem;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0 3rem 0 0;
+  }
+  &__link {
+    margin: 0 1.5rem;
+    display: inline;
+    font-size: 1.25rem;
+  }
+  &__avatar {
+    display: inline-block;
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    margin-right: 3rem;
+  }
+}

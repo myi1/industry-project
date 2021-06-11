@@ -1,0 +1,32 @@
+@use '../../styles/variables.scss' as *;
+
+.card-component {
+  background-color: $col-secondary;
+  margin: 20rem auto;
+  padding: 2.5rem;
+  border-radius: 15px;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__header {
+    margin: 0 1.5rem 1.5rem 0;
+    font-size: 1rem;
+  }
+
+  &__input {
+    margin-bottom: 1rem;
+    width: 50%;
+    padding: 0.25rem;
+  }
+
+  &__button {
+    background-color: $col-primary;
+    padding: 0.5rem 3rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+  }
+}
